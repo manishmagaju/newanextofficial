@@ -152,7 +152,7 @@ const SOCIALS = [
     href: "https://www.instagram.com/newa_next",
     icon: "instagram",
   },
-  { name: "LinkedIn", href: "www.linkedin.com/in/newa-next-0a78b6450", icon: "linkedin" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/newa-next-0a78b6450", icon: "linkedin" },
   {
     name: "YouTube",
     href: "https://www.youtube.com/@Newanext",
