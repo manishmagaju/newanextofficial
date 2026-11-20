@@ -162,7 +162,7 @@ const SOCIALS = [
     href: "https://www.youtube.com/@Newanext",
     icon: "youtube",
   },
-  { name: "TikTok", href: "#", icon: "tiktok" },
+  { name: "TikTok", href: "https://www.tiktok.com/@newa.next", icon: "tiktok" },
   {
     name: "whatsapp",
     href: "https://wa.me/9716686870",
