@@ -572,7 +572,7 @@ function CourseCard({ course }: { course: Course }) {
       </div>
 
       {/* COURSE DETAILS */}
-      <div className="flex h-[230px] flex-col p-4">
+      <div className="flex  flex-col p-4">
 
         <h3 className="line-clamp-1 text-base font-bold leading-6 text-slate-900 transition-colors group-hover:text-[#2563EB]">
           {course.title}

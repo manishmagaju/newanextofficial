@@ -22,7 +22,7 @@ const NAV_LINKS = [
   { name: "Services", href: "/services" },
   { name: "Products", href: "/products" },
   { name: "Portfolio", href: "/portfolio" },
-  { name: "Contact", href: "/Contact" },
+  { name: "Contact", href: "/contact" },
 ];
 
 /* ------------------------------------------------------------------ */
