@@ -1,4 +1,33 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Products | Software Solutions by NewaNext",
+
+  description:
+    "Explore NewaNext digital products, SaaS platforms, educational technology solutions and developer tools designed to improve business efficiency in Nepal.",
+
+  alternates: {
+    canonical: "https://newanext.com.np/products",
+  },
+
+  openGraph: {
+    title: "Our Products | NewaNext",
+    description:
+      "Discover software products, SaaS platforms and digital solutions developed by NewaNext in Nepal.",
+    url: "https://newanext.com.np/products",
+    siteName: "NewaNext",
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Products | NewaNext",
+    description:
+      "Explore NewaNext software products and digital solutions.",
+  },
+};
 
 export default function ProductsPage() {
   const products = [
