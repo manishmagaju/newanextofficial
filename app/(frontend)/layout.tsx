@@ -4,24 +4,30 @@ import type { Metadata } from "next";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://newanext.bond"),
+  metadataBase: new URL("https://newanext.com.np"),
+
   title: {
-    default: "NewaNext |Technology company in Nepal",
+    default: "NewaNext | Technology Company in Nepal",
     template: "%s | NewaNext",
   },
+
   description:
     "NewaNext is a technology company from Nepal offering software development, web development and IT education.",
+
+  alternates: {
+    canonical: "https://newanext.com.np/",
+  },
+
   openGraph: {
     title: "NewaNext | Technology Company in Nepal",
     description:
       "Software development, technology services and IT education in Nepal.",
-    url: "https://newanext.bond",
+    url: "https://newanext.com.np/",
     siteName: "NewaNext",
     type: "website",
   },
-}
+};
 
 export default function FrontendLayout({
   children,
