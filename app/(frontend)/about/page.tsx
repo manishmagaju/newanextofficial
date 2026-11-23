@@ -1,28 +1,27 @@
-import Link from "next/link";
 
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  // Your original metadata
-  title: "About Us",
+  title: "About Us | Technology Company in Nepal",
+
   description:
-    "Learn about NewaNext, a technology company from Nepal focused on software development, technology services and IT education.",
+    "Learn about NewaNext, a technology company from Nepal providing software development, web development, technology services and IT education.",
+
   alternates: {
-    canonical: "/about",
+    canonical: "https://newanext.com.np/about",
   },
 
-  // 👇 ADDED: OpenGraph tags for Facebook, LinkedIn, & WhatsApp link previews
   openGraph: {
     title: "About Us | NewaNext",
     description:
       "Learn about NewaNext, a technology company from Nepal focused on software development, technology services, and IT education.",
-    url: "https://newanext.bond/about",
+    url: "https://newanext.com.np/about",
     siteName: "NewaNext",
     locale: "en_US",
     type: "website",
   },
 
-  // 👇 ADDED: Twitter/X card preview settings
   twitter: {
     card: "summary_large_image",
     title: "About Us | NewaNext",
@@ -70,11 +69,14 @@ export default function AboutPage() {
         <span className="bg-purple-100 text-purple-700 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
           Who We Are
         </span>
+
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-snug bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
           Crafting Digital Excellence Since Day One
         </h1>
+
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          At NewaNext, we are passionate about engineering high-performing, scalable software solutions that empower modern enterprises to grow.
+          At NewaNext, we are passionate about engineering high-performing,
+          scalable software solutions that empower modern enterprises to grow.
         </p>
       </section>
 
@@ -85,9 +87,15 @@ export default function AboutPage() {
           <div className="w-12 h-12 mb-6 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center text-2xl">
             🎯
           </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold mb-4">Our Mission</h2>
+
+          <h2 className="text-2xl sm:text-3xl font-extrabold mb-4">
+            Our Mission
+          </h2>
+
           <p className="text-blue-100 leading-relaxed text-base">
-            To deliver exceptional full-stack web applications and digital tools that streamline complex operations, accelerate digital transformation, and provide incredible user experiences.
+            To deliver exceptional full-stack web applications and digital
+            tools that streamline complex operations, accelerate digital
+            transformation, and provide incredible user experiences.
           </p>
         </div>
 
@@ -96,9 +104,15 @@ export default function AboutPage() {
           <div className="w-12 h-12 mb-6 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center text-2xl">
             🌟
           </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold mb-4">Our Vision</h2>
+
+          <h2 className="text-2xl sm:text-3xl font-extrabold mb-4">
+            Our Vision
+          </h2>
+
           <p className="text-purple-100 leading-relaxed text-base">
-            To become a benchmark software engineering hub known for cutting-edge technology adoption, aesthetic design systems, and reliable enterprise solution delivery.
+            To become a benchmark software engineering hub known for
+            cutting-edge technology adoption, aesthetic design systems, and
+            reliable enterprise solution delivery.
           </p>
         </div>
       </section>
@@ -109,8 +123,10 @@ export default function AboutPage() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900">
             Our Guiding Principles
           </h2>
+
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
-            The core pillars behind our product quality and development culture.
+            The core pillars behind our product quality and development
+            culture.
           </p>
         </div>
 
@@ -148,9 +164,12 @@ export default function AboutPage() {
         <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
           Want to Partner with NewaNext?
         </h2>
+
         <p className="text-purple-100 mb-8 max-w-2xl mx-auto text-base">
-          Whether you need a custom SaaS platform, product consultation, or tailored web applications, we are ready to bring your vision to life.
+          Whether you need a custom SaaS platform, product consultation, or
+          tailored web applications, we are ready to bring your vision to life.
         </p>
+
         <Link
           href="/contact"
           className="inline-block bg-white text-purple-700 hover:bg-slate-100 font-bold px-8 py-3.5 rounded-xl transition-all shadow-lg text-sm uppercase tracking-wider"
