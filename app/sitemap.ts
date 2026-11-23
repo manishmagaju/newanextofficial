@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://newanext.bond";
+  const baseUrl = "https://newanext.com.np";
 
   return [
     { url: baseUrl },
