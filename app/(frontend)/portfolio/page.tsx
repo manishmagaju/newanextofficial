@@ -1,5 +1,35 @@
 import Link from "next/link";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Portfolio | Web & Software Projects in Nepal",
+
+  description:
+    "Explore NewaNext's portfolio of web applications, SaaS platforms, EdTech solutions and digital software projects built using modern technologies.",
+
+  alternates: {
+    canonical: "https://newanext.com.np/portfolio",
+  },
+
+  openGraph: {
+    title: "Our Portfolio | NewaNext",
+    description:
+      "Discover web applications, software solutions and digital projects by NewaNext, a technology company in Nepal.",
+    url: "https://newanext.com.np/portfolio",
+    siteName: "NewaNext",
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Portfolio | NewaNext",
+    description:
+      "Explore software development projects and digital solutions by NewaNext.",
+  },
+};
+
 export default function PortfolioPage() {
   const featuredProjects = [
     {
