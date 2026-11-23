@@ -1,4 +1,30 @@
+
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Web Development & Software Services in Nepal | NewaNext",
+  description:
+    "Explore NewaNext services in Nepal, including web application development, custom software solutions, UI/UX design, performance optimization, maintenance and technical support.",
+  alternates: {
+    canonical: "https://newanext.com.np/services",
+  },
+  openGraph: {
+    title: "Web Development & Software Services in Nepal | NewaNext",
+    description:
+      "NewaNext provides web application development, custom software solutions, UI/UX design, performance optimization and ongoing technical support.",
+    url: "https://newanext.com.np/services",
+    siteName: "NewaNext",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Services | NewaNext",
+    description:
+      "Discover web development, custom software and IT services offered by NewaNext in Nepal.",
+  },
+};
 
 export default function ServicesPage() {
   const services = [
@@ -46,7 +72,7 @@ export default function ServicesPage() {
 
   return (
     <main className="min-h-screen bg-slate-50 py-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      {/* Colorful Background Glow Accents */}
+      {/* Background Glow Accents */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-blue-300/30 rounded-full blur-3xl pointer-events-none"></div>
       <div className="absolute bottom-10 left-10 w-96 h-96 bg-purple-300/30 rounded-full blur-3xl pointer-events-none"></div>
 
@@ -55,9 +81,11 @@ export default function ServicesPage() {
         <span className="bg-purple-100 text-purple-700 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
           What We Offer
         </span>
+
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-snug bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
           High-Impact Digital Services
         </h1>
+
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           We deliver custom software, modern web apps, and performance optimizations designed to elevate your business.
         </p>
@@ -81,7 +109,10 @@ export default function ServicesPage() {
                 <div className="w-12 h-12 bg-slate-100 rounded-2xl flex items-center justify-center text-2xl">
                   {service.icon}
                 </div>
-                <span className={`text-xs font-bold px-3 py-1 rounded-full ${service.accentBg}`}>
+
+                <span
+                  className={`text-xs font-bold px-3 py-1 rounded-full ${service.accentBg}`}
+                >
                   {service.category}
                 </span>
               </div>
@@ -103,6 +134,7 @@ export default function ServicesPage() {
                 <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
                   Key Capabilities
                 </p>
+
                 <div className="flex flex-wrap gap-2">
                   {service.techStack.map((tech, techIdx) => (
                     <span
@@ -124,9 +156,11 @@ export default function ServicesPage() {
         <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
           Need a Custom Solution for Your Business?
         </h2>
+
         <p className="text-purple-100 mb-8 max-w-2xl mx-auto text-base">
           Let’s discuss your technical requirements and build a scalable solution tailored to your goals.
         </p>
+
         <Link
           href="/contact"
           className="inline-block bg-white text-purple-700 hover:bg-slate-100 font-bold px-8 py-3.5 rounded-xl transition-all shadow-lg text-sm uppercase tracking-wider"
