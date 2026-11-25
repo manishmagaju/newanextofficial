@@ -84,7 +84,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-bold text-gray-900 text-sm">Email</h4>
                   <p className="text-sm text-gray-600">newanext1@gmail.com</p>
-                  <p className="text-sm text-gray-600"><a href="https://newanext.bond/">newanext.bond</a></p>
+                  <p className="text-sm text-gray-600"><a href="https://newanext.com.np">newanext.com.np</a></p>
                 </div>
               </div>
 
