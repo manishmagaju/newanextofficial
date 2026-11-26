@@ -109,10 +109,10 @@ export default function BlogPageClient() {
           </p>
 
           <Link
-            href="/academy"
+            href="/courses"
             className="mt-8 inline-block rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white hover:bg-blue-700"
           >
-            Explore Academy →
+            Explore Our Courses →
           </Link>
         </div>
       </section>
