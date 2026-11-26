@@ -1,6 +1,6 @@
 
 import type { Metadata } from "next";
-import BlogPageClient from "./BlogPageClient";
+import BlogPageClient from "../components/blogs/BlogPageClient";
 
 export const metadata: Metadata = {
   title: "IT Blog & Technology Guides in Nepal | NewaNext",
